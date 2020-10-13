@@ -1,0 +1,48 @@
+        body {
+            background: #ffb0c1;
+            color: #fff;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        h1,
+        h2 {
+            color: #823dd1;
+            text-transform: uppercase;
+        }
+        
+        button {
+            background: #ffb35c;
+            padding: 8px 16px;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        
+        button:focus,
+        button:hover {
+            background: #00c2d9;
+            outline: none;
+        }
+        
+        #overlay {
+            display: none;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 179, 92, .5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        
+        #modal {
+            background: #f14545;
+            position: relative;
+            top: 30%;
+            padding: 20px;
+            height: 200px;
+        }
